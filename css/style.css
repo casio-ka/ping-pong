@@ -1,8 +1,8 @@
 
 .banner {
   background-color: #f4deb5;
-  font-family: 'Lobster', serif;
-  height: 300px;
+  font-family: 'Barlow Semi Condensed', serif;
+  height: 250px;
 }
 .banner  h1{
   text-align: center;
@@ -16,30 +16,29 @@
 }
 
 .about {
-  margin-top: 50px;
-  padding-top: 50px;
+  margin-top: 30px;
+  padding-top: 20px;
   padding-left: 30px;
   background-color: #90bb90;
   height: ;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .about h2 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Lato', serif;
 }
 
 .play{
-  margin-top: 75px;
-  padding-top: 60px;
-  padding-left: 15%;
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-  height: auto;
+  margin-top: 35px;
+  padding-top: 30px;
+  padding-left: 10%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
 }
 .play h2 {
-  font-family: 'Lobster', cursive;
-  font-size: 50px;
+  font-family: 'Lato', serif;
+  font-size: 40px;
 }
-#number-here{
+#input{
   margin-left: 10px;
   margin-right: 10px;
   width: 25%;

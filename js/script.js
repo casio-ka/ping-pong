@@ -16,7 +16,7 @@ var ping_pong = function(userInput) {
 $(document).ready(function() {
    $("form#playtime").submit(function(event) {
          event.preventDefault();
-         var userInput = parseInt($("#number-here").val());
+         var userInput = parseInt($("#input").val());
          alert("Hey did you just say "+ userInput);
          ping_pong(userInput);
         });
