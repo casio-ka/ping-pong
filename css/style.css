@@ -1,39 +1,33 @@
-/*Banner*/
+
 .banner {
-  background-color: #80ff80;
+  background-color: #f4deb5;
   font-family: 'Lobster', serif;
   height: 300px;
 }
 .banner  h1{
-  position: relative;
-  left: 70%;
-  top: 30%;
+  text-align: center;
+  padding-top: 30px;
   font-size: 100px;
 }
-@media (max-width:780px) {
-  img{
-    display: none;
-  }
-}
-/*Content*/
+
 .content{
-  background-color: #0099ff;
+  background-color: #d5d5d5;
   height: auto;
 }
-/*About*/
+
 .about {
   margin-top: 50px;
   padding-top: 50px;
   padding-left: 30px;
-  background-color: #d9d9d9;
+  background-color: #90bb90;
   height: ;
   font-family: 'Raleway', sans-serif;
 }
 .about h2 {
   font-family: 'Lobster', cursive;
 }
-/*Game*/
-.game{
+
+.play{
   margin-top: 75px;
   padding-top: 60px;
   padding-left: 15%;
@@ -41,7 +35,7 @@
   font-size: 25px;
   height: auto;
 }
-.game h2 {
+.play h2 {
   font-family: 'Lobster', cursive;
   font-size: 50px;
 }
@@ -50,7 +44,7 @@
   margin-right: 10px;
   width: 25%;
 }
-/*Output*/
+
 #output {
   height: auto;
 }
