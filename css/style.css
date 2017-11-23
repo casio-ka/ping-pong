@@ -20,13 +20,28 @@
   padding-top: 20px;
   padding-left: 30px;
   background-color: #90bb90;
-  height: ;
+  height: 700px;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .about h2 {
   font-family: 'Lato', serif;
+  font-weight: bold;
 }
-
+.about h3 {
+  color: #f8dfb7;
+}
+.about p {
+  color: #fff;
+  font-size: 20px;
+}
+.about a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.about a:hover {
+  color: #4481b4;
+}
 .play{
   margin-top: 35px;
   padding-top: 30px;
