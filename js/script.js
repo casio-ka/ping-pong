@@ -12,12 +12,15 @@ var ping_pong = function(userInput) {
     }
   }
 }
+
 /*Front-End(User Interface)*/
 $(document).ready(function() {
    $("form#playtime").submit(function(event) {
          event.preventDefault();
          var userInput = parseInt($("#input").val());
-         alert("Hey did you just say "+ userInput);
          ping_pong(userInput);
         });
+    $(".reset").click(function() {
+      $(this).closest('form').find("input[type=text], textarea").val("");
+    });
 });
